@@ -1,0 +1,66 @@
+/* Styles for .table container */
+.table {
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto;
+    /* border: 2px solid red; */
+  }
+  
+  /* Styles for <table> element */
+  .table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  
+  /* Styles for <thead> section */
+  .table table thead {
+    border-top: 2px solid var(--light-blue);
+    border-bottom: 2px solid var(--light-blue);
+  }
+  
+  /* Styles for <th> and <td> elements */
+  .table table th,
+  .table table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Styles for elements with .icons class inside <th> and <td> elements */
+  .table table th.icons > *,
+  .table table td.icons > * {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for <tr> elements */
+  .table table tr {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  /* Styles for even <tr> elements (striped effect) */
+  .table table tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  /* Styles for elements with class "pending" */
+  .table table .pending {
+    color: orangered;
+    font-weight: 500;
+  }
+  
+  /* Styles for elements with class "delivered" */
+  .table table .delivered {
+    color: green;
+    font-weight: 500;
+  }
+  
+
+  section {
+    height: auto;
+  }
+
+  @media screen and (max-width: 890px) {
+  }

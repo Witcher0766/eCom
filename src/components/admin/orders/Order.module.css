@@ -1,0 +1,62 @@
+/* General table styles */
+.table {
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Table styles */
+  .table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  
+  /* Table header styles */
+  .table table thead {
+    border-top: 2px solid var(--light-blue);
+    border-bottom: 2px solid var(--light-blue);
+  }
+  
+  /* Table header cell styles */
+  .table table th {
+    border: 1px solid #eee;
+  }
+  
+  /* Table header and data cell styles */
+  .table table th,
+  .table table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Icon cell styles */
+  .table table th.icons > * {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Table row styles */
+  .table table tr {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  /* Even-numbered row styles */
+  .table table tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  /* Pending cell styles */
+  .table table .pending {
+    color: orangered;
+    font-weight: 500;
+  }
+  
+  /* Delivered cell styles */
+  .table table .delivered {
+    color: green;
+    font-weight: 500;
+  }
+  

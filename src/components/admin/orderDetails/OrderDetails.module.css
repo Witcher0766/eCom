@@ -1,0 +1,82 @@
+/* Table Styling */
+.table {
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  
+  .table thead {
+    border-top: 2px solid var(--light-blue);
+    border-bottom: 2px solid var(--light-blue);
+  }
+  
+  .table th {
+    border: 1px solid #eee;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table .icons > * {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .table tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  /* Summary Styling */
+  .summary {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .summary .card {
+    padding: 1rem;
+  }
+  
+  .summary .card .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .summary .card .text h3 {
+    color: var(--color-danger);
+  }
+  
+  .summary .card button {
+    margin-top: 5px;
+  }
+  
+  /* Count Styling */
+  .count {
+    display: flex;
+    align-items: center;
+  }
+  
+  .count button {
+    border: 1px solid var(--darkblue);
+  }
+  
+  .count > * {
+    margin-right: 1rem;
+  }
+  

@@ -1,0 +1,123 @@
+
+.container {
+  display: flex;
+  /* border: 2px solid red; */
+  /* justify-content: space-around; */
+  justify-content: center;
+  height: 75vh;
+  /* padding: 20px; */
+  margin-top: 20px;
+}
+
+
+.img {
+/* border: 2px solid black; */
+width: 40%;
+padding: 20px;
+display: flex;
+align-items: center;
+}
+
+.form {
+  /* border: 2px solid green; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 0rem;
+  /* padding: 20px; */
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+}
+.form h2 {
+  font-size: 30px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form form input {
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+.img img {
+  width: 100%;
+  height: 60vh;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color:  var( --dark-dracula1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--light-dracula);
+}
+
+.btn1  {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: var(--plate-red);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+.links a {
+  text-decoration: none;
+  color: rgb(33, 85, 199);
+}
+.links a:hover {
+  text-decoration: none;
+  color: black;
+
+}
+
+.register a {
+  text-decoration: none;
+  color: rgb(33, 85, 199);
+}
+.register a:hover {
+  text-decoration: none;
+  color: black;
+
+}
+
+
+input[type=text]:focus {
+  background-color: rgba(128, 128, 128, 0.475);
+}
+input[type=password]:focus {
+  background-color: rgba(128, 128, 128, 0.475);
+}
+
+
+
+.links1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links1 p a {
+  text-decoration: none;
+  color: rgb(19, 19, 167);
+}
+.links1 p a:hover {
+  text-decoration: none;
+  color: black;
+}

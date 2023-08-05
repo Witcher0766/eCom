@@ -1,0 +1,39 @@
+/* Equivalent CSS for .card class */
+.card {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    border: 1px solid var(--light-blue);
+    margin-bottom: 5px;
+  }
+  
+  /* Equivalent CSS for h3 element */
+  h3 {
+    font-weight: 300;
+  }
+  
+  /* Equivalent CSS for .text class */
+  .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Equivalent CSS for nested h3 element within .text class */
+  .text h3 {
+    color: var(--fav-color);
+  }
+
+  .backbtn{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: white;
+    background-color: var(--fav-blue);
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+  }
+  .backbtn:hover {
+    background-color:var(--light-blue);
+  }
+  

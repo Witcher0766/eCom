@@ -1,0 +1,49 @@
+.navbar {
+  border-right: 1px solid #ccc;
+  min-height: 80vh;
+}
+
+.navbar .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  background-color: rgb(21, 19, 19);
+  color: white;
+  gap: 0.5rem;
+}
+
+.navbar .user h4 {
+  color: #fff;
+}
+
+.navbar nav ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  position: relative;
+}
+
+.navbar nav ul li a {
+  display: block;
+  width: 100%;
+  color: black;
+  transition: all 0.3s;
+}
+.navbar nav ul li a:hover {
+  color: red;
+}
+
+.active {
+  cursor: pointer;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: orangered;
+}

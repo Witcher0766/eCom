@@ -1,0 +1,135 @@
+/* Table Styles */
+
+section {
+    padding: 30px 30px 0px 30px;
+}
+.table {
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  
+  .table table thead {
+    border-top: 2px solid var(--light-blue);
+    border-bottom: 2px solid var(--light-blue);
+  }
+  
+  .table table th {
+    border: 1px solid #eee;
+  }
+  
+  .table table th,
+  .table table td {
+    vertical-align: top;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table table th.icons > * {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .table table tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table table tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  /* Summary Section Styles */
+  .summary {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    padding: 1rem;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 20px;
+  }
+  
+   .card .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card .text h3 {
+    color: var(--color-danger);
+  }
+  
+   .card button {
+    margin-top: 5px;
+  }
+
+  .checkoutButton{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: white;
+    background-color: var(--fav-blue);
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+  }
+  .checkoutButton:hover {
+    background-color:var(--light-blue);
+  }
+  
+  /* Count Styles */
+  .count {
+    display: flex;
+    align-items: center;
+  }
+  
+  .count button {
+    border: 1px solid var(--darkblue);
+  }
+  
+  .count > * {
+    margin-right: 1rem;
+  }
+  
+
+  .addbtn {
+    padding: 10px 15px 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+    border-radius: 5px;
+  }
+  .addbtn:hover {
+    background-color: rgb(62, 188, 112);
+    color: white;
+  }
+
+
+ 
+  .cartButton{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    color: white;
+    background-color: var(--fav-blue);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .cartButton:hover {
+    background-color:var(--light-blue);
+  }
+  
