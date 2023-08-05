@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+      "service_nbbpr5j", 
       'template_bpguuls', form.current, 'RJoVJ6GBlTPaDCUI0')
       .then((result) => {
         toast.success("Message sent successfully")
