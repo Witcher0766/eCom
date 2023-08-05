@@ -95,7 +95,7 @@ import { useNavigate } from "react-router-dom";
       elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        return_url: "https://ecom-service-qpf5.onrender.com/checkout-success",
+        return_url: "http://localhost:3000/checkout-success",
       },
       redirect: "if_required"
     })
